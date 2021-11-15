@@ -1,8 +1,10 @@
 
+
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("What a Life!");
+        System.out.println("Enter Birth Year:");
         final String keyEvent[] = {"Birth", "Kindergarden" , "Preteen", "Teen","Driving", "Sweet16",
             "High School Gradution", "Adult-All States", "Thirties", "MidLife Crisis", "Fifties", 
             "Early Retirment" , "Retirement", "Federal Retirement", "Centurian", "Historic Power"};
@@ -31,21 +33,7 @@ public class App {
         }
 
     }
-    public static String historicalContext(int i, int[] keyAge){
-        final String Events[] = {"You're really old, you're from the B.C.E age", 
-        "Roman empire falls","The Mongols conquer everything", "Renaissance age", "Conquest of the Americas", "The great Revolutions(The Americas, France etc.) ","Conquest of Africa"
-        ,"World War I","Women allowed to vote","Independence of majority of African countries", "World War II", "Cold War","Reached the Moon", "Vietnam war","Voting age lowered to 18", "U.S.S.R reforms to Russia"
-        , "Covid Pandemic"};       
-      int Years[] = {476,1206, 1368, 1400, 1600, 1492, 1776,1825, 1885, 1914, 1918,1920, 1980, 1939, 1945, 1946, 1991, 1969, 1955, 1971, 1975, 2019};
-       if (){
-
-       }
     
-
-
-    return ;
-    }
-
 
 
 
